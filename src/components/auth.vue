@@ -1,6 +1,11 @@
 <template>
   <div id="auth" class="ui fluid container">
-    <div class="ui center aligned grid">
+    <div class="mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Sign In</h2>
+      </div>
+    </div>
+    <!--<div class="ui center aligned grid">
       <div class="row">
         <div class="column">
           <img src="../assets/acourse.svg" class="ui centered image" style="width: 220px; height: 220px">
@@ -91,7 +96,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

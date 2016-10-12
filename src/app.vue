@@ -6,6 +6,25 @@
   </div>
 </template>
 
+<style>
+  @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+  @import url('../node_modules/material-design-lite/material.min.css');
+
+  .hidden {
+    display: none;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  p.description {
+    text-align: left;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+</style>
+
 <script>
   import { Loader, Document } from './services'
   import SuccessModal from './components/success-modal'
